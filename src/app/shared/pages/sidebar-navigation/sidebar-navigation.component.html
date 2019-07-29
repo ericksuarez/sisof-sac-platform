@@ -1,0 +1,96 @@
+<nav class="navbar-default navbar-static-side" role="navigation">
+    <div class="sidebar-collapse">
+        <ul class="nav metismenu" id="side-menu">
+            <li class="nav-header">
+                <div class="dropdown profile-element">
+                    <img alt="image" class="rounded-circle" src="assets/img/profile_small.jpg" />
+                    <a data-toggle="dropdown" class="dropdown-toggle" [routerLink]="['/dashboard']">
+                        <span class="block m-t-xs font-bold">Erick Suárez Buendía</span>
+                        <span class="text-muted text-xs block">Administrador <b class="caret"></b></span>
+                    </a>
+                    <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                        <li><a class="dropdown-item" [routerLink]="['/dashboard']">Mi cuenta</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['/dashboard']">Vendedores</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['/dashboard']">Chat</a></li>
+                        <li class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" [routerLink]="['/dashboard']">Cerrar sesión</a></li>
+                    </ul>
+                </div>
+                <div class="logo-element">
+                    SISOF
+                </div>
+            </li>
+            <li class="active">
+                <a [routerLink]="['/dashboard']"><i class="fa fa-bar-chart"></i> <span
+                        class="nav-label">Dashboards</span>
+                    <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li><a [routerLink]="['/dashboard']">Resumen</a></li>
+                    <li><a [routerLink]="['/dashboard']">Ventas por vendedor</a></li>
+                    <li><a [routerLink]="['/dashboard']">Productos</a></li>
+                    <li><a [routerLink]="['/dashboard']">Zonas</a></li>
+                </ul>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-user-circle-o"></i> <span
+                        class="nav-label">Vendedores</span></a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-comments-o"></i> <span
+                        class="nav-label">Chats</span></a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-users"></i> <span class="nav-label">Clientes</span></a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-truck"></i> <span class="nav-label">Rutas</span></a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class=" fa fa-shopping-cart"></i> <span
+                        class="nav-label">Productos</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a [routerLink]="['/dashboard']">Lista</a></li>
+                    <li><a [routerLink]="['/dashboard']">Catálogos</a></li>
+                    <li><a [routerLink]="['/dashboard']">Promociones</a></li>
+                </ul>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-exchange"></i> <span class="nav-label">Cambios o
+                        Devoluciones</span></a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-calculator"></i> <span
+                        class="nav-label">Cotizaciones</span></a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-file-text-o"></i> <span class="nav-label">Órdenes
+                        de Compra</span><span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level collapse">
+                    <li><a [routerLink]="['/dashboard']">Atendidas</a></li>
+                    <li><a [routerLink]="['/dashboard']">Entrantes</a></li>
+                </ul>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-dollar"></i> <span class="nav-label">Cobranza</span>
+                </a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-eye"></i> <span
+                        class="nav-label">Supervisión</span></a>
+            </li>
+            <li>
+                <a [routerLink]="['/dashboard']"><i class="fa fa-question"></i> <span
+                        class="nav-label">Encuestas</span></a>
+            </li>
+            <li class="landing_link">
+                <a [routerLink]="['/dashboard']"><i class="fa fa-user"></i> <span class="nav-label">Uusarios</span>
+                    <span class="label label-warning float-right">Root</span></a>
+            </li>
+            <li class="landing_link">
+                <a [routerLink]="['/dashboard']"><i class="fa fa-desktop"></i> <span
+                        class="nav-label">Dispositivos</span>
+                    <span class="label label-warning float-right">Root</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
